@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    margin: 0px;
+    height: 75vh;
+    width: 100vw;
+    background: url(images/headerBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+header #navbarContainer{
+    height: 20vh;
+    width: 100vw;
+}
+
+header #navbarContainer #navbarIcon{
+    float: left;
+    margin: 2rem;
+}
+
+header #navbarContainer .navbarButton{
+    float: right;
+    margin: 4.5rem 1rem;
+    font-size: 1rem;
+}
+
+header #headerMain #textLeft{
+    margin-top: 0px;
+    width: 30vw;
+    height: fit-content;
+    float: left;
+}
+
+header #headerMain #textLeft button{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+header #headerMain #imageRight{
+    margin: auto;
+    float: right;
+    width: 60vw;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+header #headerMain #imageRight img{
+    height: 45%;
+    width: 45%;
+    margin-left: 8rem;
+}
+
+#introParagraph{
+    height: fit-content;
+    padding: 20vh 15vw;
+    align-content: center;
+}
+
+#introParagraph h1{
+    text-align: center;
+    font-size: 5rem;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+#introParagraph h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#introParagraph p{
+    text-align: center;
+}
+
+#service{
+    height: fit-content;
+    padding: 10vh 15vw;
+    align-content: center;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+#service h1{
+    font-size: 5rem;
+    margin-bottom: 8px;
+}
+
+#service h3{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#service td{
+    padding: 15px;
+    text-align: center;
+}
+
+#advantages{
+    width: 70vw;
+    height: fit-content;
+    padding: 20vh 15vw 80vh 15vw;
+    align-content: center;
+}
+
+#advantages #leftImage{
+    margin: auto;
+    width: 35vw;
+    height: inherit;
+    float: left;
+}
+
+#advantages #leftImage img{
+    height: 70%;
+    width: 70%;
+}
+
+#advantages #rightText{
+    padding: 0vh 5vw 0vh 0vw;
+    margin: auto;
+    width: 15vw;
+    height: fit-content;
+    float: right;
+}
+
+#advantages #rightText h1{
+    margin-bottom: 5vh;
+}
+
+#randomText{
+    background-color: #CFDFF2;
+    height: fit-content;
+    padding: 10vh 15vw;
+    align-content: center;
+}
+
+#randomText h1{
+    text-align: center;
+    font-size: 5rem;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+#randomText h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+#reviews{
+    height: fit-content;
+    padding: 10vh 15vw;
+    align-content: center;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+#reviews h1{
+    font-size: 5rem;
+    margin-bottom: 8px;
+}
+
+#reviews h3{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#reviews table{
+    border-spacing: 5vw 0vw;
+}
+
+#reviews td{
+    border-spacing: 0px 5vw;
+    padding: 15px;
+    text-align: center;
+    background-color: #6285BC;
+}
+
+#reviews th{
+    margin: 0px 5vw;
+    padding: 15px;
+    text-align: center;
+    background-color: #6285BC;
+}
+
+.blue{
+    color: #41597D;
+}
+
+.white{
+    color: white;
+}
